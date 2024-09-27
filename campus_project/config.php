@@ -4,8 +4,8 @@ session_start();
 
 // Database connection parameters
 $servername = "localhost";
-$username = "localhost";
-$password = "Amol123@";
+$username = "root";
+$password = "";
 $dbname = "campus";
 
 // Create connection
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_role'] = $user['role'];
             echo "Login successful! Welcome, " . htmlspecialchars($user['name']) . ".";
-            header("Location: Admin/dashboard.html");
+            header("Location: Admin/home.php");
         } else {
             echo "Invalid email or password.";
         }
