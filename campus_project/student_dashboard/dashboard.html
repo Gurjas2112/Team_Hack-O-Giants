@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>College Dashboard</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="add_student.html">add student</a></li>
+                <li><a href="add_teacher.html">add teacher</a></li>
+                <li><a href="event.php">add event</a></li>
+                <li><a href="show_events.php">show event</a></li>                
+                <li><a href="show_teacher.php">show teacher student</a></li>
+                <li><a href="attendance.php">attendance</a></li>
+                <li><a href="show_attendance.php">show attendance</a></li>
+
+            </ul>
+        </nav>
+        <main>
+            <section id="students">
+                <h2>Students</h2>
+                <table border="1">
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date of Birth</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Enrollment Date</th>
+                        <th>Major</th>
+                        <th>Course Name</th>
+                        <th>Year</th>
+                    </tr>
+                    <!-- Student data will be inserted here -->
+                </table>
+            </section>
+            <section id="teachers">
+                <h2>Teachers</h2>
+                <table border="1">
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Department</th>
+                        <th>Subjects</th>
+                    </tr>
+                    <!-- Teacher data will be inserted here -->
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 College Dashboard</p>
+        </footer>
+    </div>
+</body>
+</html>

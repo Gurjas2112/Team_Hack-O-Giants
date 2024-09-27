@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #77aaff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}</style>
+<body>
+    <div class="container">
+        <header>
+            <h1>College Dashboard</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="add_student.html">add student</a></li>
+                <li><a href="add_teacher.html">add teacher</a></li>
+            
+
+            </ul>
+        </nav>
+        <main>
+            <section id="students">
+                <h2>Students</h2>
+                <table border="1">
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date of Birth</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Enrollment Date</th>
+                        <th>Major</th>
+                        <th>Course Name</th>
+                        <th>Year</th>
+                    </tr>
+                    <!-- Student data will be inserted here -->
+                </table>
+            </section>
+            <section id="teachers">
+                <h2>Teachers</h2>
+                <table border="1">
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Department</th>
+                        <th>Subjects</th>
+                    </tr>
+                    <!-- Teacher data will be inserted here -->
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 College Dashboard</p>
+        </footer>
+    </div>
+</body>
+</html>
