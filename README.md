@@ -1,7 +1,7 @@
 # Vortexa_Hackathon
 Team Hack O' Giants
 
-Smart Campus Management System- 
+
 Problem Statement:Smart Campus Management System- 
 Managing campus activities such as attendance, class
  schedules, and events can be overwhelming. Your task is to develop a web or
