@@ -2,7 +2,8 @@
 Team Hack O' Giants
 
 
-Problem Statement:Smart Campus Management System- 
+Problem Statement:
+Smart Campus Management System- 
 Managing campus activities such as attendance, class
  schedules, and events can be overwhelming. Your task is to develop a web or
  mobile application that allows administrators, teachers, and students to
