@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_role'] = $user['role'];
             echo "Login successful! Welcome, " . htmlspecialchars($user['name']) . ".";
-            // Redirect or display a message
+            header("Location: dashboard/index.php");
         } else {
             echo "Invalid email or password.";
         }
